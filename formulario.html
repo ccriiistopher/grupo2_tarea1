@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <title>Tarea 01 - Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css" />
+  </head>
+  <body>
+    <div class="titulo">
+      <h2>Formulario de Registro</h2>
+    </div>
+    <form class="formulario">
+      <div>
+        <label for="nombres">Nombre(s)</label>
+        <input
+          class="input_1"
+          id="nombres"
+          name="nombres"
+          type="text"
+          placeholder="Nombre(s)"
+        />
+      </div>
+      <div>
+        <label for="apellidos">Apellidos</label>
+        <input
+          class="input_1"
+          id="apellidos"
+          name="apellidos"
+          type="text"
+          placeholder="Apellidos"
+        />
+      </div>
+      <div>
+        <label for="edad">Edad</label>
+        <input
+          class="input_1"
+          id="edad"
+          name="edad"
+          type="number"
+          placeholder="Edad"
+          min="0"
+          max="200"
+        />
+      </div>
+      <div>
+        <fieldset>
+          <legend>Género</legend>
+          <div>
+            <input type="radio" value="m" id="masculino" name="genero" />
+            <label for="masculino">Masculino</label>
+          </div>
+
+          <div>
+            <input type="radio" value="f" id="femenino" name="genero" />
+            <label for="femenino">Femenino</label>
+          </div>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Idiomas que domina</legend>
+          <div>
+            <input type="checkbox" value="eng" id="eng" name="idioma" />
+            <label for="eng">Inglés</label>
+          </div>
+          <div>
+            <input type="checkbox" value="esp" id="esp" name="idioma" />
+            <label for="esp">Español</label>
+          </div>
+          <div>
+            <input type="checkbox" value="port" id="port" name="idioma" />
+            <label for="port">Portugués</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              value="other_languages"
+              id="other_lang"
+              name="idioma"
+            />
+            <label for="other_lang">Otros</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div>
+        <fieldset>
+          <legend>Lenguajes de programación de interés</legend>
+          <div>
+            <input type="checkbox" value="js" id="js" name="idioma" />
+            <label for="js">Javascript</label>
+          </div>
+          <div>
+            <input type="checkbox" value="java" id="java" name="idioma" />
+            <label for="java">Java</label>
+          </div>
+          <div>
+            <input type="checkbox" value="python" id="python" name="idioma" />
+            <label for="python">Python</label>
+          </div>
+          <div>
+            <input type="checkbox" value="c" id="c" name="idioma" />
+            <label for="c">C/C++</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div>
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <input
+          class="input_1"
+          type="date"
+          id="nacimiento"
+          name="nacimiento"
+          placeholder="DIA/MES/AÑO"
+        />
+      </div>
+      <div>
+        <label for="foto">Foto de perfil</label>
+        <input type="file" id="foto" name="foto" />
+      </div>
+
+      <div>
+        <label for="contrasena">Contraseña</label>
+        <input
+          class="input_1"
+          id="contrasena"
+          name="contrasena"
+          type="password"
+          placeholder="Contraseña"
+        />
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+        <button id="limpiar" type="reset">Limpiar</button>
+      </div>
+    </form>
+  </body>
+</html>
