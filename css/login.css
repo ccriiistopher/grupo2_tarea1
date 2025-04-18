@@ -7,7 +7,7 @@
 
 /* Estilos del cuerpo de la página */
 .cuerpo-pagina {
-    background-color: #f0f2f5;
+    background: linear-gradient(135deg, #667eea 0%, #5549b6 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@
 }
 
 .texto-enlace {
-    color: #4d8bf0;
+    color: #526aef;
     text-decoration: none;
     font-weight: 600;
 }
