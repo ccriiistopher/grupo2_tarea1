@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body class="cuerpo-pagina">
+    <div class="contenedor">
+        <div class="tarjeta">
+            <div class="encabezado">
+                <h2 class="titulo">Login G2</h2>
+                <p class="subtitulo">Ingrese sus credenciales</p>
+            </div>
+            
+            <form class="formulario">
+                <div class="campo">
+                    <label for="usuario" class="etiqueta">Usuario</label>
+                    <input type="text" id="usuario" class="entrada" placeholder="admin@grupo.dos.com" required>
+                </div>
+                
+                <div class="campo">
+                    <label for="clave" class="etiqueta">Contraseña</label>
+                    <input type="password" id="clave" class="entrada" placeholder="Ingrese su contraseña" required>
+                </div>
+                
+                <div class="recordar">
+                    <input type="checkbox" id="recordarme" class="casilla">
+                    <label for="recordarme">Recordar usuario</label>
+                </div>
+                
+                <button type="reset" class="boton">Ingresar</button>
+                
+                <div class="enlace">
+                    <a href="#" class="texto-enlace">Olvidé mi contraseña</a>
+                </div>
+                
+                <div class="enlace">
+                    <span>¿No tiene una cuenta? </span>
+                    <a href="#" class="texto-enlace">Registrarse</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
